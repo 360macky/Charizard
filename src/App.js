@@ -12,6 +12,12 @@ function App() {
 
   return (
     <ApolloProvider client={client}>
+      <header>
+        <h1 className="app__title">Charizard</h1>
+        <p className="app__description">
+          Find out about everything about your favorite Pokémon
+        </p>
+      </header>
       <main>
         <PokemonContainer />
       </main>
