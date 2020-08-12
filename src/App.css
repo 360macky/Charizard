@@ -1,3 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@400&display=swap');
+
+/* Resets */
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --primary-color: #e53935;
+  --dark-color: #ab000d;
+  --light-color: #ff6f60;
+}
+
+/* Pokemon App */
+
+.app__title {
+  font-family: 'Bungee', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+  margin-top: 1rem;
+  line-height: 4rem;
+  color: var(--primary-color);
+}
+
+.app__description {
+  text-align: center;
+}
+
+.pokemon {
+  background-color: red;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+  background-color: blue;
+}
+
 .App {
   text-align: center;
 }
